@@ -7,7 +7,7 @@ function sumar(n1,n2) {
  console.log("-------------------------");
 //6 Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.(consola)    
 function mayor(n1,n2) { 
-    console.log(n1>n2)}
+    console.log(Math.max (n1,n2))}
     mayor(5,3);
     console.log("-------------------------");
 //7 Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.(consola)
